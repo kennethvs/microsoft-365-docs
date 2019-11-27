@@ -49,23 +49,23 @@ Anti-spam, anti-malware, and anti-phishing are features of EOP that can be confi
 
 There are several other parameters in the Anti-spam policy called Advanced Spam filter that are being deprecated at the time of this writing. Our recommended settings for these are to turn them **OFF** for both Standard and Strict levels:
 
-|Security feature name|
-|---------|
-|IncreaseScoreWithImageLinks|
-|IncreaseScoreWithNumericIps|
-|IncreaseScoreWithRedirectToOtherPort|
-|IncreaseScoreWithBizOrInfoUrls|
-|MarkAsSpamEmptyMessages|
-|MarkAsSpamJavaScriptInHtml|
-|MarkAsSpamFramesInHtml|
-|MarkAsSpamObjectTagsInHtml|
-|MarkAsSpamEmbedTagsInHtml|
-|MarkAsSpamFormTagsInHtml|
-|MarkAsSpamWebBugsInHtml|
-|MarkAsSpamSensitiveWordList|
-|MarkAsSpamFromAddressAuthFail|
-|MarkAsSpamNdrBackscatter|
-|MarkAsSpamSpfRecordHardFail|
+|Section|Security feature name|
+|---------|---------|
+|Increase Spam Score|Image links to remote sites|
+|Increase Spam Score|IncreaseScoreWithNumericIps|
+|Increase Spam Score|IncreaseScoreWithRedirectToOtherPort|
+|Increase Spam Score|IncraseScoreWithBizOrInfoUrls|
+|Mark as Spam|Empty Messages|
+|Mark as Spam|JavaScript or VBScript in HTML|
+|Mark as Spam|Frame or IFrame tags in HTML|
+|Mark as Spam|Object tags in HTML|
+|Mark as Spam|Embed tags in HTML|
+|Mark as Spam|Form tags in HTML|
+|Mark as Spam|Web bugs in HTML|
+|Mark as Spam|Apply sensitive word list|
+|Mark as Spam|SPF record: hard fail:|
+|Mark as Spam|Conditional Sender ID filtering: hard fail:|
+|Mark as Spam|NDR backscatter|
 
 #### EOP outbound spam filter policy settings
 
